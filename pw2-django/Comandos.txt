@@ -13,3 +13,5 @@ python manage.py runserver
 python manage.py migrate
 python manage.py runserver
 django-admin startapp personas
+vim personas/models.py
+vim listaContactos/settings.py
