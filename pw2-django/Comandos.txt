@@ -7,3 +7,4 @@ cd pw2-django
 pip install Django
 python -m django --version
 django-admin startproject listaContactos
+vim listaContactos/listaContactos/settings.py
