@@ -8,3 +8,8 @@ pip install Django
 python -m django --version
 django-admin startproject listaContactos
 vim listaContactos/listaContactos/settings.py
+cd listaContactos
+python manage.py runserver
+python manage.py migrate
+python manage.py runserver
+django-admin startapp personas
