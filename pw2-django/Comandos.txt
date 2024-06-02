@@ -6,3 +6,4 @@ cd pw2-django
 .\Scripts\Activate.ps1
 pip install Django
 python -m django --version
+django-admin startproject listaContactos
