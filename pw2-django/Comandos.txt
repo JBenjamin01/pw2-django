@@ -20,3 +20,13 @@ python manage.py migrate
 python manage.py runserver
 python manage.py createsuperuser
 vim personas/admin.py
+python manage.py runserver
+python manage.py shell
+>>> from personas.models import Persona
+>>> Persona.objects.all()
+<QuerySet []>
+>>> Persona.objects.create(nombres="Alfredo", apellidos="Paz Valderrama", edad="23")
+<Persona: Persona object (1)>
+>>> Persona.objects.all()
+<QuerySet [<Persona: Persona object (1)>]>
+>>>exit()
