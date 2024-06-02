@@ -1,0 +1,4 @@
+# Procedimiento realizado en Windows 11
+python --version
+pip3 install virtualenv
+virtualenv -p python3 pw2-django
