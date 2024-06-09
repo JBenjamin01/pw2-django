@@ -52,3 +52,6 @@ vim listaContactos/urls.py
 python manage.py runserver
 vim listaContactos/urls.py
 python manage.py runserver
+vim inicio/views.py
+vim listaContactos/urls.py
+python manage.py runserver
