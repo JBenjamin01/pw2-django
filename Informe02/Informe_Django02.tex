@@ -863,7 +863,7 @@
         \begin{figure}[H]
             \centering
             \includegraphics[width=1\linewidth]{img/Pregunta1.png}
-            \caption{Captura del historial de commits}
+            \caption{Primera Diapositiva de Preguntas}
             \label{fig:enter-label}
         \end{figure}
         \begin{itemize}
@@ -873,7 +873,7 @@
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.8\linewidth]{img/DonadorDefault.png}
-            \caption{Captura del historial de commits}
+            \caption{Consola: Default para el campo donador}
             \label{fig:enter-label}
         \end{figure}
         \end{itemize}
@@ -882,7 +882,7 @@
         \begin{figure}[H]
             \centering
             \includegraphics[width=1\linewidth]{img/Pregunta2.png}
-            \caption{Captura del historial de commits}
+            \caption{Segunda Diapositiva de Preguntas}
             \label{fig:enter-label}
         \end{figure}
         \begin{itemize}	
@@ -890,7 +890,7 @@
             \item El parámetro null=False afecta a la base de datos porque asegura que la columna correspondiente no pueda contener valores nulos, mientras que blank=False es relevante para la validación de formularios en Django y no afecta la estructura de la base de datos. 
             \item Otros parámetros que impactan directamente la base de datos incluyen default, unique=True, y primary\_key=True, ya que estos establecen valores predeterminados, restricciones de unicidad y claves primarias, respectivamente.
 
-        \begin{lstlisting}[language=Python,caption={Creando superusuario}][H]
+        \begin{lstlisting}[language=Python,caption={Implementación de la lógica con null y blank}][H]
         from django.db import models
         
         class Persona(models.Model):
@@ -901,9 +901,9 @@
         
             \item En contraste, aquí, los parámetros como blank=False, verbose\_name, y help\_text no afectan la estructura de la base de datos, sino que mejoran la validación y documentación en los formularios y el panel de administración de Django. 
             \item Por ejemplo, al definir un campo email en el modelo Persona con null=False, blank=False, y unique=True, garantizo que cada registro tenga un valor de email no nulo, no vacío y único, lo cual impacta tanto la base de datos como la lógica de validación en Django.
-            \item Esta sería la implementación
+            \item Esta sería la implementación:
 
-        \begin{lstlisting}[language=Python,caption={Creando superusuario}][H]
+        \begin{lstlisting}[language=Python,caption={Implementación de la lógica de validación con unique}][H]
         from django.db import models
 
         class Persona(models.Model):
