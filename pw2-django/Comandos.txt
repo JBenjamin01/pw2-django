@@ -45,3 +45,10 @@ python manage.py makemigrations
 >>> True
 python manage.py migrate
 python manage.py runserver
+python manage.py startapp inicio
+vim listaContacto/settings.py
+vim inicio/views.py
+vim listaContactos/urls.py
+python manage.py runserver
+vim listaContactos/urls.py
+python manage.py runserver
