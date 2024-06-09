@@ -57,3 +57,7 @@ vim listaContactos/urls.py
 python manage.py runserver
 vim inicio/views.py
 python manage.py runserver
+mkdir templates
+vim templates/home.html
+vim listaContactos/settings.py
+vim inicio/views.py
