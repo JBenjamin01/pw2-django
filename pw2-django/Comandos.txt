@@ -64,3 +64,4 @@ vim inicio/views.py
 python manage.py runserver
 vim templates/home.html
 python manage.py runserver
+vim templates/base.html
