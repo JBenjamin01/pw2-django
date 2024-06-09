@@ -67,3 +67,6 @@ python manage.py runserver
 vim templates/base.html
 vim templates/home.html
 python manage.py runserver
+vim templates/nav.html
+vim templates/base.html
+python manage.py runserver
