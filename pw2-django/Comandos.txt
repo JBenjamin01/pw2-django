@@ -36,3 +36,7 @@ python manage.py runserver
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+python manage.py shell
+>>> from personas.models import Persona
+>>> Persona.objects.create(nombres="Jorge", apellidos="Gonzales", edad="18")
+>>>exit()
