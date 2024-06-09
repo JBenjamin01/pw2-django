@@ -29,7 +29,7 @@ python manage.py shell
 <Persona: Persona object (1)>
 >>> Persona.objects.all()
 <QuerySet [<Persona: Persona object (1)>]>
->>>exit()
+>>> exit()
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
@@ -39,4 +39,9 @@ python manage.py runserver
 python manage.py shell
 >>> from personas.models import Persona
 >>> Persona.objects.create(nombres="Jorge", apellidos="Gonzales", edad="18")
->>>exit()
+>>> exit()
+python manage.py makemigrations
+1
+>>> True
+python manage.py migrate
+python manage.py runserver
